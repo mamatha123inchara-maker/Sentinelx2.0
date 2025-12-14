@@ -183,7 +183,6 @@ Here’s how the pipeline works on a sample rooftop:
 
 - Python 3.9+   
 - Ultralytics YOLOv8  
-- Docker
 
 [Detection example](artefacts/rooftop_detection.png)
 📄 [Model Card (PDF)](docs/ideathon.pdf)
