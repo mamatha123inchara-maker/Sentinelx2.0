@@ -165,26 +165,6 @@ Here’s how the pipeline works on a sample rooftop:
     }
 }
 
-### ✅ 6. *Add Docker Instructions*
-markdown
-## 🐳 Docker Setup
-
-bash
-docker build -t solar-detection .
-docker run -it -v $(pwd):/app solar-detection
-FROM python:3.10-slim
-
-WORKDIR /app
-
-COPY Solar_pipeline/Docker/requirements.txt requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
-
-COPY . .
-
-EXPOSE 5000
-
-CMD ["python", "Solar_pipeline/pipeline.py/pipeline.py"]
-
 ### ✅ 7. *Describe Folder Structure*
 ```markdown
 ## 📁 Folder Structure
@@ -205,3 +185,5 @@ CMD ["python", "Solar_pipeline/pipeline.py/pipeline.py"]
 - Ultralytics YOLOv8  
 - Docker
 
+[Detection example](artefacts/rooftop_detection.png)
+📄 [Model Card (PDF)](docs/ideathon.pdf)
