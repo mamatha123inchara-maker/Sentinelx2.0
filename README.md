@@ -166,18 +166,19 @@ Here’s how the pipeline works on a sample rooftop:
         "capture_date": "unknown"
     }
 }
+## 📁 Folder Structure (Solar_pipeline)
 
-### ✅ 7. *Describe Folder Structure*
-```markdown
-## 📁 Folder Structure
-
-├── predictions/        # Model outputs  
-├── artefacts/          # Audit visuals and JSONs  
-├── logs/               # Training and pipeline logs  
-├── trained_model/      # YOLOv8 weights  
-├── pipeline_code/      # Core scripts  
-├── data/               # Input images  
-└── docs/               # Model card PDF
+Solar_pipeline/
+│
+├── Docker/                 # Dockerfile + requirements for containerization
+│
+├── model/                  # Trained YOLO model (.pt)
+│
+├── output/                 # Pipeline outputs (images, JSONs)
+│
+├── pipeline.py             # Main pipeline script
+│
+└── Testing latlong.xlsx    # Input coordinates for inference
 
 
 
