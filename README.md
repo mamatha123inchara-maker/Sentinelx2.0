@@ -1,5 +1,6 @@
 ![solar_input](https://github.com/user-attachments/assets/43ac714b-9a5a-4524-8690-15660d31c4c1)# eco-innovators
 An automated pipeline that detects and verifies rooftop solar panels using latitude and longitude. The system fetches high-resolution images, identifies whether solar PV is present, estimates panel area, generates explainable audit artifacts, assigns QC status, and stores results as structured JSON outputs. Designed for accuracy and transparency
+
 ## 🔧 How the Pipeline Works
 
 1. *Input Coordinates* → User provides latitude and longitude.
@@ -13,8 +14,8 @@ An automated pipeline that detects and verifies rooftop solar panels using latit
 9. ## 🚀 Running the Pipeline
 
 ```bash
-git clone https://github.com/yourteam/eco-innovators.git
-cd eco-innovators
+https://github.com/mamatha123inchara-maker/Sentinelx2.0.git
+
 pip install -r requirements.txt
 python pipeline/run.py --input data/images --output predictions/
 
@@ -130,11 +131,12 @@ def run_pipeline():
 # -------------------------
 # RUN
 # -------------------------
-if _name_ == "_main_":
+if_name_=="_main_":
     run_pipeline()
 
 ### 🔌 API Usage
-AIzaSyAF71xKeFF13D1A8ZHV8foB1upZhRPR7oE
+
+GOOGLE_API_KEY="YOUR_API_KEY_HERE"
 
 ### JSON
 
