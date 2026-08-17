@@ -32,7 +32,7 @@ from io import BytesIO
 # CONFIG
 # -------------------------
 
-GOOGLE_API_KEY = "AIzaSyAF71xKeFF13D1A8ZHV8foB1upZhRPR7oE"
+GOOGLE_API_KEY = ""
 INPUT_XLSX = "/content/drive/MyDrive/Solar_pipeline/Testing latlong.xlsx"
 MODEL_PATH = "/content/drive/MyDrive/Solar_pipeline/model/best.pt"
 OUTPUT_FOLDER = "/content/drive/MyDrive/Solar_pipeline/output"
